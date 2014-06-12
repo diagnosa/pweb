@@ -1,0 +1,45 @@
+header{
+	border-top-color: #A62F00;
+	border-bottom-color: #A62F00;
+	background-color: #F53D65;
+}
+
+header li{
+	width: 20%;
+	height: 100px;
+	text-align: center;
+	margin: 0 5%;
+	float: left;
+	font-family: futura;
+	font-color:black;
+	text-decoration: none;
+	list-style: none;
+}
+header li:hover{
+	font-color:grey;
+}
+
+header li .active{
+	border-color: #A62F00;
+	border-bottom-color: none;
+	border-top-right-radius: 45;
+	border-top-left-radius: 45;
+	background-color: #F56E8D;
+}
+
+#isi{
+	background-color: #F56E8D;
+}
+
+
+#footer{
+	background-color: #F53D65;
+	height: auto;
+	width: 100%;
+}
+#footer h2{
+	float: left;
+}
+#footer h5{
+	float: right;
+}
